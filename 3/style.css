@@ -1,0 +1,63 @@
+header {
+    margin: auto;
+    /* width: 1007px; */
+    background: lightgreen;
+}
+
+header #name {
+    margin: auto;
+    width: 310px;
+}
+
+header #intro {
+    text-align: center;
+    margin: 0px 0px;
+    padding: 13px 0px;
+}
+
+nav {
+    background-color: #fca32d;
+    /* margin: 17px 1px; */
+    text-align: center;
+    padding: 6px 0px;
+
+}
+
+nav .same {
+    color: black;
+    text-decoration: none;
+    margin: 0px 92px;
+    padding: 4px 15px;
+}
+
+nav .same:hover {
+    background-color: black;
+    color: white;
+}
+
+#submit {
+    margin: auto;
+    width: 601px;
+    padding: 22px 23px;
+    background: #e1e1e1;
+    border-radius: 31px;
+}
+
+#submit label {
+    margin: 0px;
+}
+
+#submit .samee {
+    width: 35rem;
+    height: 1.5rem;
+    border-radius: 21px;
+    margin: 4px 0px;
+}
+
+#success {
+    opacity: 0;
+    color: green;
+    font-weight: bold;
+    transition: opacity 0.5s ease-in-out;
+}
+

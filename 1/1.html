@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+    <div id="calculator-setup">
+        <h1>Calculate your bill</h1>
+    </div>
+    <div id="input-fields">
+        <form action="#">
+            <label for="billinfo" class="same">Total Bill</label><br>
+            <input type="number" name="TotalBill" id="billinfo" class="inputFields"><br>
+            <label for="Tips" class="same">Tips %</label><br>
+            <input type="number" name="TipsInPerc" id="Tips" class="inputFields"><br>
+            <label for="people" class="same">People</label><br>
+            <button type="button" onclick="decrease()">-</button>
+            <span id="counts"></span>
+            <button type="button" onclick="increase()">+</button>
+            <button type="button" onclick="calculate()" id="calculate-btn">Calculate</button>
+        </form>
+    </div>
+    <div id="summary">
+        <h4>Summary</h4>
+        <div>
+            <p id="key">Total Bill</p>
+            <p id="totalbill"></p>
+        </div>
+        <div>
+            <p id="tipsAmount">Tips Ammount</p>
+            <p id="tipsAmountN"></p>
+        </div>
+        <div>
+            <p id="tax">Tax5%</p>
+            <p id="taxN"></p>
+        </div>
+        <div class="dottedLine"></div>
+        <div>
+        <p id="total">Total Per Person</p>
+        <p id="totalN"></p>
+        </div>
+    </div>
+</body>
+<script src="1.js"></script>
+
+</html>

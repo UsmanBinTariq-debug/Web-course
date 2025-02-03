@@ -1,0 +1,22 @@
+body{
+    font-size: 23px;
+}
+#counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+}
+
+#incr{
+    position: absolute;
+    left: 45rem;
+    top: 15.5rem;
+    width: 45px;
+}
+#decr{
+    position: absolute;
+    left: 32rem;
+    top: 15.5rem;
+    width: 45px;
+}

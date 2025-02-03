@@ -1,0 +1,44 @@
+.bmidiv{
+    width: 510px;
+    margin: auto;
+    border: 2px solid red;
+    padding: 14px 41px;
+    font-size: 16px;
+    background: lightblue;
+}
+
+.bmidiv #yes{
+    margin: 19px 163px;
+    width: 183px;
+}
+
+.bmidiv #yes .no{
+    display: none;
+
+}
+.bmidiv #yes #result{
+    margin: auto;
+    width: 111px;
+    
+}
+
+.bmidiv h4{
+    margin: auto;
+    width: 105px;
+}
+
+.bmidiv div label{
+    margin: 2px 2px 2px 58px;
+}
+
+.bmidiv div input{
+    margin: 5px 0px;
+    width: 11rem;
+    border-radius: 23px;
+    height: 20px;
+} 
+
+#calbtn{
+    display: block;
+    margin: auto;
+}
