@@ -1,0 +1,74 @@
+body{
+    background-color: darkgrey;
+}
+
+#calculator-setup{
+    width: 664px;
+    height: 42px;
+    background-color: black;
+    margin: auto;
+    border-radius: 31px;
+}
+
+#calculator-setup h1{
+    color: white;
+    margin: auto;
+    width: 300px;
+}
+
+#input-fields{
+    width: 600px;
+    margin: auto;
+}
+
+.inputFields{
+    width: 38rem;
+    border-radius: 2rem;
+    height: 2rem;
+    margin: 4px 0px;
+}
+
+#input-fields{
+    width: 626px;
+    margin: 11px 300px;
+    background-color: black;
+    color: white;
+    padding: 19px 12px;
+    border-radius: 16px;
+}
+
+#calculate-btn{
+    margin: 2px 2px 2px 437px;
+    width: 92px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#calculate-btn:hover {
+    background-color: grey;
+}
+
+#summary{
+    width: 626px;
+    margin: 11px 300px;
+    background-color: black;
+    color: white;
+    padding: 19px 12px;
+    border-radius: 16px;
+}
+
+#summary h4{
+    font-size: 26px;
+    margin: auto;
+    width: 122px;
+}
+
+#summary div{
+    display: flex;
+    justify-content: space-between;
+}
+#summary .dottedLine{
+    border-width: 1px;
+    border-style: dashed;
+}
+
